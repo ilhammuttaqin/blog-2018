@@ -1330,33 +1330,33 @@ blockquote {
 
   .blog-post .thumb-post {
     float: none;
+	display:inline-block;
   }
 
   .blog-post {
     margin-bottom: 50px;
-    text-align: center;
+    text-align: auto;
   }
 
   .testimonial-content {
-    width: 100%;
+    width: auto;
   }
 
   .blog-post .thumb-post {
-    margin: 0 auto 40px auto;
+    margin: auto auto auto auto;
   }
 
   .project-img {
     margin-bottom: 40px;
-    display: block;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 760px) {
   .parallax { 
-	background-position: center center !important; 
+	background-position: auto auto !important; 
   }
 	
   .cta .cta-title {
-    display: block;
+    display: inline-block;
     margin-bottom: 30px;
   }
 
@@ -1373,7 +1373,7 @@ blockquote {
   }
 
   .isotope-item {
-    width: 100%;
+    width: auto;
     height: auto;
   }
 }
